@@ -3,7 +3,7 @@
 
 ---
 
-# 👨‍💻 Future Coder – Programming Courses Management System
+# Future Coder – Programming Courses Management System
 
 ## 📘 Overview
 **Future Coder** is a web-based platform designed to connect parents with coding learning centers, allowing them to register their children in programming courses. It also provides administrators and tutors with powerful tools to manage schedules, students, and consultations in one centralized system.
