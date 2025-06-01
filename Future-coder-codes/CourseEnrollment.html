@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Coder-Course Enrollment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	
+    <link rel="stylesheet" href="CourseEnrollment.css">
+<style>
+@import url("main.css");
+</style>
+</head>
+<body>
+  <main>
+<!--Header-->
+<header> 
+
+    <div class="logo"> 
+
+      <img src="image/logo-removebg-preview.png"  alt="" > 
+
+    </div> 
+
+    <nav class="navbar"> 
+
+      <ul> 
+
+        <li><a href="Courses.html" accesskey="c"> Courses</a></li> 
+
+        <li><a href="ParentDashboard.HTML" accesskey="p">Parents</a></li> 
+
+        <li><a href="admin.html" accesskey="a">Administrator</a></li> 
+
+        <li><a href="Tutors page.html" accesskey="t">Tutors</a></li> 
+
+        <li><a href="index.html" accesskey="h">Home</a></li> 
+
+      </ul> 
+
+    </nav> 
+
+  </header> 
+ 
+  <!--breadcrumbs-->
+	    <div class="image-banner">
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span class="divider">></span>
+		 <a href="ParentDashboard.HTML">Parent</a>
+        <span class="divider">></span>
+        <a href="#" class="active" > Course Enrollment</a>
+      </div>
+      <img src="image/enrolbanner[1383].png" alt="" width="100%">
+  </div>
+
+
+    <form action="#" id="enrollment-form" name="enrollform">
+   
+    <h2>Enrollment Information:</h2>
+    <br>
+            <div class="enrol-drop-name">
+              <label id="enrol-lable-name">Kid's Name </label>
+              <select id="kid-name" class="enrollselect" >
+                <option value="" disabled selected hidden>Select a Name</option>
+               
+              </select>
+            </div>
+            
+        <br>
+           
+        <div class="available-courses-label">
+          <label id="enrol-lable-course">Available Courses:</label>
+      </div>
+      <br>
+              
+            <div>
+            <label for="tutorFilter" class="tutfilter">Filter by Tutor:</label>
+            <select id="tutorFilter" class="enrollselect">
+              <option value="all">All Tutors</option>
+              <option>Esraa Bader</option>
+              <option>Abeer Fares</option>
+              <option>Abdullah Ali</option>
+              <option>Ali Hammad</option>
+              <option>Amany Essa</option>
+              <option>Manal Salem</option>
+            </select>
+</div>
+
+<br>
+<div>
+<label for="prerequisiteFilter" class="preqfilter">Filter by Prerequisite:</label>
+<select id="prerequisiteFilter" class="enrollselect">
+  <option value="all">All Prerequisites</option>
+    <option >java language</option>
+    <option >Network basics</option>
+    <option >PHP language</option>
+    <option >UI/UX design</option>
+    <option >Cyber security basics</option>
+    <option >python language</option>
+    <option >SQL language</option>
+    <option >Swift</option>
+    <option >Flutter Flow</option>
+    
+</select>
+</div>
+        <br>
+                    
+           
+
+            <div class="courses">
+                <div class="course-group left">
+                <div class="course">
+                    <input type="checkbox" data-course-name="Flutter Flow">
+                    <img src="image/flutter.jpeg" alt="">
+                    <label class="Clable">Flutter Flow</label>
+                </div>
+                <div class="course">
+                    <input type="checkbox" data-course-name="java language">
+                    <img src="image/java.jpeg" alt="">
+                    <label class="Clable">java language</label>
+                </div>
+                <div class="course">
+                    <input type="checkbox" data-course-name="Network basics">
+                    <img src="image/network cr.jpeg" alt="">
+                    <label class="Clable">Network basics</label>
+                </div>
+                <div class="course">
+                    <input type="checkbox" data-course-name="PHP language">
+                    <img src="image/PHP.jpeg" alt="">
+                    <label class="Clable">PHP language</label>
+                </div>
+                <div class="course">
+                    <input type="checkbox" data-course-name="python language">
+                    <img src="image/python.jpeg" alt="">
+                    <label class="Clable">python language</label>
+                </div>
+              </div>
+                <div class="course-group right">
+                    <div class="course">
+                        <input type="checkbox" data-course-name="Cyber security basics">
+                        <img src="image/securty.jpeg" alt="">
+                        <label class="Clable" >Cyber security basics</label>
+                    </div>
+                    <div class="course">
+                        <input type="checkbox" data-course-name="SQL language">
+                    <img src="image/SQL.jpeg" alt="">
+                    <label class="Clable">SQL language</label>
+                    </div>
+                    <div class="course">
+                        <input type="checkbox" data-course-name="Swift">
+                        <img src="image/SWIFT.jpeg" alt="">
+                        <label class="Clable">Swift</label>
+                    </div>
+                    <div class="course">
+                        <input type="checkbox" data-course-name="UI/UX design">
+                    <img src="image/UX.jpeg" alt="">
+                    <label class="Clable">UI/UX design</label>
+                    </div>
+                </div>
+
+
+            </div>
+        
+
+            <div class="enrollment-sumbit">
+                <input type="submit" class="enrollment-submit-button" value="Enroll"> 
+            </div>
+            
+       
+</form>
+<div class="centered-container">
+<div id="selectedInfo"></div>
+</div>
+ <!--Footer-->
+<footer> 
+
+    <div class="footer-container"> 
+
+      <div > 
+
+        <img src="image/logo-removebg-preview.png"  class="footerimg" alt="" /> 
+
+      </div> 
+
+      <ul class="footer-icons-ul"> 
+
+         
+
+        <li> 
+
+            <h4>Location</h4> 
+
+          <i class="fa-solid fa-location-dot"></i> 
+
+          <span>Saudi Arabia,Riyadh,Anas bin Mailk street</span> 
+
+        </li> 
+
+      </ul> 
+
+      <ul class="footer-icons-ul"> 
+
+        
+
+        <li> 
+
+            <h4>Contact us</h4> 
+
+          <i class="fa-solid fa-phone"></i> 
+
+ 
+ 
+
+          <span>+966123456789</span> 
+
+        </li> 
+
+        <li> 
+
+          <i class="fa-brands fa-whatsapp"></i> 
+
+          <span>+966123456789</span> 
+
+        </li> 
+
+        <li> 
+
+          <i class="fa-solid fa-envelope"></i> 
+
+          <span>Futurecoder@gmail.com</span> 
+
+        </li> 
+
+      </ul> 
+
+    </div> 
+
+    <div class="copy-right">Future coder Copy right 2023, all rights</div> 
+
+  </footer> 
+</main>
+<script src="Enrollment.js"></script>
+<script src="mainJS.js"></script>
+</body>
+</html>
+
+
+
+
+
+

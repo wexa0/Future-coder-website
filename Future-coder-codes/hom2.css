@@ -1,0 +1,1368 @@
+
+
+
+
+*{
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+list-style-type: none;
+
+font-family:sans-serif;
+    
+}
+:root{
+    --bg-color:white;
+    --text-color:black;
+    --main-color:#0A344D ;
+}
+
+
+:root{
+	 
+    --primary-color:#f5f5f5;
+    --secondary-color:white;
+    
+    --third-color:black;
+    --four-color:#666;
+    --fifth-color:white;
+    --eight-color:black;
+    --header-color:white;
+    --blue-color:#0A344D;
+    --fristpart-color:#f5f5f5;
+    --boxp-color:grey;
+}
+
+
+.dark-theme{
+    
+    --primary-color:black;
+    --secondary-color:black;
+    --third-color:white;
+    --four-color:white; 
+    --fifth-color:#0A344D;
+    --eight-color:#0A344D;
+    --header-color:#1b1b1b;
+    --blue-color:white;
+    --fristpart-color:#0A344D;
+    --boxp-color:white;
+
+}
+
+
+/*
+:root {
+    --primary-color:#f5f5f5;
+    --secondery-color:black;
+    --third-color:#ffffff;
+    --forth-color:rgb(5, 43, 96) ;
+    --fifth-color:grey;
+  
+  }
+  .dark-mode{
+      --primary-color:rgb(12, 29, 111);
+    --secondery-color:white ;
+    --third-color:black;
+    --forth-color:white;
+    --fifth-color:white;
+  }
+  */
+body{
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    text-align: center  ;
+    min-height:100vh ;
+    counter-reset: var(--text-color);
+    font-family:sans-serif;
+	margin:0;
+}
+/*breadcrmbs*/
+
+.breadcrumbs { 
+
+    display: flex; 
+  
+    align-items: center; 
+  
+    font-family: Arial, sans-serif; 
+  
+    padding: 10px; 
+  
+  } 
+  
+
+   
+   
+  
+  .breadcrumbs a { 
+  
+    text-decoration: none; 
+  
+    margin: 0 5px; 
+  
+    /*color: #000000;  */
+
+    color:var(--third-color);
+  
+  } 
+  
+   
+   
+  
+  .breadcrumbs a:hover { 
+  
+    text-decoration: underline; 
+  
+  } 
+  
+   
+   
+  
+  .breadcrumbs .active { 
+  
+    color:var(--third-color);
+    font-weight: bold; 
+  
+    pointer-events: none; 
+  
+  } 
+  
+   
+
+
+
+
+
+
+
+header {  
+
+  
+    background-color: var(--header-color);
+      
+    width:100% ;
+    top: 0;
+    right: 0;
+    z-index:1000 ;
+
+
+  
+
+    
+
+    display: flex;  
+
+  
+
+    justify-content: space-between;  
+
+  
+
+    align-items: center;  
+   /* background: transparent;*/
+  padding:28px 12%;
+
+  transition: all .50s ease;
+  
+  
+
+  }  
+
+  
+
+    
+
+  
+
+  .logo img {  
+
+    display: flex;
+    align-items: center;
+
+    max-width: 240px;  
+  
+    height: auto; 
+
+ 
+
+ 
+
+  
+
+  }  
+
+
+
+
+  
+
+  .navbar {  
+
+  
+    margin-left: auto;
+    margin-right: 20px;  
+
+
+   margin-top: 12px; 
+
+  
+
+  }  
+ 
+
+    
+
+  .navbar ul {  
+
+  
+
+    list-style-type: none;  
+
+  
+
+    padding: 0;  
+    
+
+  
+
+    margin: 0;  
+
+  
+
+    display: flex;  
+
+  
+
+    gap: 40px;  
+
+  
+
+    font-size: 14px;  
+
+  
+
+  }  
+
+  
+
+  
+
+  .navbar a {  
+
+  
+
+  font-size: 0.9rem;
+ 
+
+    color: var(--third-color);  
+
+  padding: 5px 0;
+
+   margin: 0px 30px;
+
+    transition: all .50s ease;  
+
+  
+
+  }  
+
+
+
+  
+
+     #menu-icon {
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+    font-size: 35px;
+    
+
+
+    }
+
+  
+
+  .navbar a:hover {  
+
+  
+
+    color: #2C9FF3;  
+
+  
+
+  }   
+  
+  
+  
+  .vision h1{
+   
+    color: rgb(23, 6, 6);
+    color:var(--third-color);
+
+    font-size: 250%;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
+
+.vision p{
+    
+   
+  
+    color:rgba(29, 80, 199, 0.943) ;
+    color:var(--blue-color);
+    line-height: 34px;
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+    
+font-family:'Times New Roman', Times, serif;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color:var(--header-color);
+    padding: 10px 0;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img {
+    max-width: 240px;
+    height: auto;
+}
+
+.navbar {
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2px; /* Adjusted gap to add a little space between items */
+    font-size: 14px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    color: var(--third-color);
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #2C9FF3;
+}
+
+
+#menu-icon {
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+    font-size: 35px;
+    
+
+
+    }
+
+  @media(max-width:1280px){
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+ 
+    .navbar a{
+       padding: 5px 0; 
+       margin: 0px 20px;
+    }
+  }
+  @media(max-width:1090px){
+    #menu-icon{
+       display: block; 
+    }
+  .navbar{
+    position: absolute;
+    top:100%;
+    right:-100%;
+    width:80%;
+    height: 29vh;
+    display: flex;
+    flex-direction: column;
+     background-color: var(--main-color);
+  
+    border-radius: 10px;
+    transition: all .50s ease;
+
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+
+  .navbar a{
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all .50s ease;
+
+  }
+  .navbar a:hover{
+    color:  #2C9FF3  ;
+    transform:translateY(5px);
+  }
+  .navbar.open{
+    right: 2%;
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+/* Existing styles */
+
+  
+  @media (max-width: 1090px) {
+    #menu-icon {
+      display: block;
+    }
+  
+    .navbar {
+      position: absolute;
+      top: 0;
+      right: -100%;
+      width: 80%;
+      height: auto;
+      background-color: var(--main-color);
+      border-radius: 10px;
+      transition: all .50s ease;
+      z-index: 1000; 
+
+    }
+  
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .navbar a {
+      display: block;
+      padding: 10px 25px;
+      transition: all .50s ease;
+    }
+  
+    .navbar.open {
+      right: 2%;
+    }
+    .navbar a:hover{
+        color:  #2C9FF3  ;
+        transform:translateY(5px);
+      }
+  }
+  
+/*000000000000000000000000000000000000000000000000000000000000*/
+
+
+  
+
+
+.codevideo{
+    width:100%;
+    
+    height: 100%;
+  
+    
+    float: left;
+    
+    
+    }
+    
+
+  
+
+#menu-icon{
+    color: var(--third-color);
+}
+.vision{
+    
+ clear: left;
+    
+    
+   justify-content:center;
+   margin-bottom: 5%;
+ 
+ 
+ }
+
+
+    video{
+        width: 80%;
+        height: 100%;
+    }
+
+
+
+    
+  
+
+
+.fristpart {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Adjust the column layout */
+    padding-top: 0.25%;
+    width: auto;
+    background-color: var(--fristpart-color);
+}
+
+.vision {
+    text-align: center; /* Center text */
+    padding: 5rem; /* Add padding for spacing */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.codevideo{
+    width:100%;
+    
+    height: 100%;
+  
+    
+    float: left;
+    
+    
+    }
+    
+
+
+
+.container{
+    background-color:var(--primary-color);
+    padding:15px 9%;
+    padding-bottom: 100px;
+
+    
+
+}
+
+.container .heading{
+
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+
+    color:var(--third-color);
+    font-size: 2rem;
+
+}
+
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+     gap:15px;
+
+}
+.container .box-container .box{
+    
+    background-color:var(--fifth-color); 
+    border-radius: 15px;
+    
+    box-shadow: 2px 3px 5px lightgray;
+    
+    text-align: center;
+    
+
+}
+
+
+.container .box-container .box img {
+    width: 100%;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    border-radius: 15px; /* Optional: Add border-radius to match the box */
+    object-fit: cover; /* Ensure the image covers the entire box */
+}
+
+.container .box-container .box h2{
+
+   color:var(--third-color);
+    font-size: 22px;
+    padding:10px 0;
+    text-align: center;
+    
+  }
+  .container .box-container .box p{
+    color:var(--boxp-color);
+  
+    font-size: 15px;
+    padding:10px 0;
+    line-height:1.8 ;
+
+    
+  }
+
+
+  .reviw{
+    color:#f9d732e5;
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 15%;
+   
+
+}
+
+
+.reviw3{
+    color:#f9d732e5;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+  
+}
+
+.reviw5{
+    color:#f9d732e5;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+  
+}
+.reviw6{
+    color:#f9d732e5;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+  
+}
+
+
+ 
+footer { 
+
+    background-color:var(--header-color) ; 
+	
+  font-family:Sans-serif; 
+
+} 
+
+ 
+ 
+
+footer .copy-right { 
+
+    text-align: center; 
+
+    color: var(--secondary-color); 
+
+    background-color:var(--eight-color); 
+
+    padding: 10px; 
+
+} 
+
+ 
+ 
+
+footer .footer-icons-ul { 
+
+    list-style: none; 
+
+    padding: 0;
+
+color:var(--third-color)
+
+} 
+
+ 
+ 
+
+.footer-container { 
+
+    display: flex; 
+
+    flex-direction: row; 
+
+    justify-content: space-between;   
+
+    padding: 0 40px;  
+} 
+
+ 
+
+
+footer .footerimg { 
+
+    height: 100px;  
+    width: 185px; 
+    padding-top:1em;
+} 
+
+
+ 
+
+
+footer .footerimg { 
+
+    height: 100px;  
+    width: 185px; 
+    padding-top:1em;
+} 
+#changeIcon{
+    width:30px;
+    cursor:pointer;
+    
+
+}
+
+.reviwp {
+    color:#f9d732e5;
+
+}
+
+.Rarrow{
+    margin-bottom:5.2%;
+    
+    
+
+}
+
+.larrow{
+    margin-top: 7.8%; 
+
+}
+
+
+.parentreviews{
+    
+
+    background-color: var(--blue-color);
+   
+   display: flex;
+
+   flex-direction: row;
+   padding: 9%;
+   gap: 20px;
+   color: var(--third-color);
+   
+
+}
+ 
+ 
+
+  
+ .parentreviews .preview {
+    background-color: var(--fifth-color);
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    border-radius:12px;
+  
+
+    
+}
+
+
+.preview img{
+    padding:30px 10px;
+    width: 80%;
+    
+}
+
+.parentreviews .preview .p1{
+    background-color: var(--fifth-color);
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px lightgray;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.parentreviews .preview .p2{
+    background-color: var(--fifth-color);
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px lightgray;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.Rarrow{
+    margin-bottom:5.2%;
+    
+    color: black;
+
+}
+
+.larrow{
+    margin-top: 10%; 
+    color: black;
+
+}
+
+.parentreviews .preview .p1{
+    background-color: var(--fifth-color);
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px lightgray;
+    text-align: center;
+}
+
+
+
+
+/************************************************/
+
+
+
+
+/*------------------------------------------------------------*/
+
+
+.container{
+    background-color:var(--primary-color);
+}
+.container .box-container {
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+    max-width: 1200px; /* Set a maximum width for the box container */
+    margin: 0 auto; /* Center the box container */
+}
+
+.container .box-container .box {
+    position: relative;
+    background-color: var(--fifth-color);
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px lightgray;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 15px; /* Add margin to separate boxes on smaller screens */
+}
+
+.container .box-container .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.container .box-container .box h2 {
+    color:var(--third-color);
+    font-size: 22px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container .box-container .box p {
+    color: var(--boxp-color);
+    font-size: 15px;
+    padding: 10px 0;
+    line-height: 1.8;
+}
+
+.container .box-container .box .reviw,
+.container .box-container .box .reviw3,
+.container .box-container .box .reviw5,
+.container .box-container .box .reviw6 {
+    color: #f9d732e5;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+.r1.img{
+    width:110%;
+    height: 50%;
+ 
+}
+
+
+
+
+
+
+
+
+/* existing styles for small screens (max-width: 768px) */
+    
+@media only screen and (max-width: 768px) {
+    
+    .container .box-container .box:nth-child(4) {
+        height: 80% !important;
+        margin-bottom: 0;
+         /* Set margin-bottom to 0 to remove any spacing */
+    }
+
+    .container .box-container .box:nth-child(5) {
+        height: 38rem !important;
+        margin-bottom: 0; /* Set margin-bottom to 0 to remove any spacing */
+    }
+
+    .container .box-container .box:nth-child(6) {
+        height: 38rem !important;
+        margin-bottom: 0; /* Set margin-bottom to 0 to remove any spacing */
+    }
+
+    
+    .container {
+        padding: 20px;
+     
+    }
+
+    .container .box-container {
+        grid-template-columns: 1fr; /* Change to a single column layout on smaller screens */
+        padding: 0 15px; /* Add padding to the sides for better spacing on smaller screens */
+    }
+
+    container .heading{
+
+        text-align: center;
+        padding-bottom: 15px;
+      
+        font-size: 20%;
+    
+    }
+
+    .fristpart {
+        grid-template-columns: 1fr;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+
+   
+    .box {
+        margin-bottom: 20px;
+         
+    }
+    .reviw{
+        margin: 3rem;
+        padding-bottom: 1rem;
+    }
+    .box img{
+        width: 100%;
+    }
+   
+    #java{
+        height: 55%;
+    }
+   
+
+  
+    #php{
+        height: 45%;
+        width: 100%;
+    }
+ 
+    
+     #python{
+        height: 46%;
+     }
+    footer .footer-container {
+        flex-direction: column;
+    }
+    .vision h1{
+        font-size: 2rem;
+
+    }
+.vision p{
+    
+   
+    line-height: 34px;
+    font-size: 1.2rem;
+
+}
+
+
+    .parentreviews {
+        flex-direction: column; /* Switch to a column layout on small screens */
+        padding: 5%; /* Adjust padding for smaller screens */
+    }
+
+    .parentreviews .preview {
+        grid-template-columns: 1fr;
+        height: 40%; /* Display one column on small screens */
+    }
+    .container .box-container .box #box.java img {
+        height: auto;
+        max-width: 100%;
+    }
+    .preview img {
+        width: 80%; /* Make images take full width on small screens */
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+    .parentreviews .preview {
+        grid-template-columns: 1fr;
+        height: 40%; /* Display one column on small screens */
+        margin-bottom: 1rem; /* Add margin between parent review boxes */
+    }
+
+    .preview img {
+        width: 80%; /* Make images take full width on small screens */
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+
+    
+    
+}
+/*---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+/* Media Query for tablets (min-width: 769px and max-width: 800px) */
+@media screen and (min-width: 769px) and (max-width: 800px) {
+    .container {
+        /* Add specific styles for tablets */
+        padding: 10px;
+        
+    }
+
+    .fristpart {
+        /* Modify grid columns for tablets */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 100%)); /* Adjust minmax value */
+        gap: 10px; /* Adjust the gap between items for tablets */
+    }
+
+    video {
+        /* Adjust video width for tablets */
+        width: 100%;
+    
+    }
+
+  
+  
+    
+
+    .box-container {
+        /* Adjust grid columns for tablets */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px; /* Adjust the gap between items for tablets */
+    }
+
+    .box {
+        /* Add specific styles for boxes on tablets */
+        margin-bottom: 30px;
+    }
+
+    footer .footer-container {
+        /* Adjust flex direction for tablets */
+        flex-direction: row;
+    }
+
+    /* Styles for parentreviews on tablets */
+    .parentreviews {
+        flex-direction: column; /* Adjust back to column layout for tablets */
+        padding: 10%; /* Adjust padding for tablets */
+    }
+
+    .parentreviews .preview {
+        grid-template-columns: 1fr; /* Display one column on tablets */
+        gap: 10px; /* Adjust the gap between items for tablets */
+        height: auto; 
+        width: 60%;/* Set height to auto for tablets */
+    }
+
+    .preview img {
+        /* Adjust image width for tablets */
+        width: 60%;
+        padding: 16px 11px; /* Adjust padding for tablets */
+    }
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a media query for laptops with a min-width of 801px */
+@media (min-width: 801px)and (max-width:1280px) {
+    .container .box-container .box#box.java,
+    .container .box-container .box#box.python,
+    .container .box-container .box#box.php,
+    #r1 .box {
+        /* Set the desired height to match other boxes */
+        height: 250px; /* Adjust the height as needed */
+        width: 27vw; /* Set the width to match other boxes */
+    }
+
+    .container .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 30px; /* Adjust the gap property to add space between boxes */
+        padding-bottom: 2%;
+    }
+    #php {
+        height: 230px; /* Adjust the height as needed */
+    }
+
+    #java {
+        height: 230px; /* Adjust the height as needed */
+    }
+
+    #python {
+        height: 230px; /* Adjust the height as needed */
+    }
+
+    .navbar a {
+        padding: 5px 0;
+        margin: 0px 30px;
+    }
+
+    .container {
+        padding: 15px 9%;
+    }
+
+    .fristpart {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 30px; /* Adjust the gap property to add space between boxes */
+        padding-bottom: 2%;
+    }
+
+    .vision {
+        padding-left: 40%;
+        text-align: center;
+        line-height: 70%;
+    }
+
+    video {
+        width: 64vw;
+        height: auto;
+    }
+
+    .box {
+        width: 27vw;
+    }
+
+    /* Add any additional styles you want to modify for larger screens */
+    .parentreviews {
+        display: flex;
+        flex-direction: column; /* Set the direction to column for parent title on top */
+        align-items: center; /* Center content horizontally */
+    }
+
+    
+
+    .reviw-container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+        justify-content: space-between; /* Distribute reviews evenly */
+    }
+
+    .preview {
+        flex: 0 0 calc(33.33% - 10px); /* Adjust the width of each review */
+        margin-right: 10px; /* Adjust the spacing between reviews */
+    }
+
+    .preview:last-child {
+        margin-right: 0; /* Remove margin from the last review to prevent extra spacing */
+    }
+    .Rarrow, .larrow {
+        width: 100%; /* Make the arrows take the full width */
+        margin-top: 15%; /* Adjust the margin as needed */
+    }
+
+    .parentreviews .preview {
+        flex: 1; /* Take up equal space within the flex container */
+        margin: 10px; /* Add margin between items */
+    }
+
+    .preview {
+        width: 100%; /* Make each review container take the full width */
+    }
+    .preview img {
+        /* Adjust image width for tablets */
+        width: 80%;
+
+    }
+   
+
+    .container {
+        padding: 15px 9%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+ .heading2 {
+        text-align: center; /* Center the parent title */
+		color:var(--secondary-color);
+    }
+}
+/* Add a media query for screens larger than 1280 pixels */
+@media (min-width: 1281px) {
+    .container .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 30px;
+        padding-bottom: 2%;
+        justify-content: center; /* Center the grid items horizontally */
+    }
+
+    .container .box-container .box {
+        width: 100%; /* Make sure each box takes the full width of its container */
+    }
+
+    #php, #java, #python {
+        height: 230px;
+    }
+
+    .navbar a {
+        padding: 5px 15px; /* Adjust padding for better spacing */
+    }
+
+    .fristpart {
+        display: grid;
+        grid-template-columns: 64vw 1fr; /* Adjust the grid layout */
+        gap: 30px;
+        padding-bottom: 2%;
+    }
+
+    .vision {
+        text-align: center;
+        line-height: 150%; /* Increase line height for better readability */
+    }
+
+    video {
+        width: 100%; /* Make the video take the full width */
+        height: auto;
+    }
+
+    .box {
+        width: 100%; /* Make sure each box takes the full width of its container */
+    }
+
+    .parentreviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviw-container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: space-between;
+    }
+
+    .preview {
+        flex: 0 0 calc(25% - 10px); /* Adjust the width of each review */
+        margin-right: 20px; /* Increase the margin between reviews */
+    }
+
+    .preview:last-child {
+        margin-right: 0;
+    }
+
+    .Rarrow, .larrow {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .parentreviews .preview {
+        flex: 1;
+        margin: 10px;
+    }
+
+    .preview img {
+        width: 100%; /* Make sure the image takes the full width */
+    }
+
+    .container {
+        padding: 15px 9%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+
+/*breadcrums*/
+
+
+:root{
+	 
+	 --primary-color:#f5f5f5;
+	 --secondary-color:white;
+	 --third-color:black;
+	 --four-color:#666;
+	 --fifth-color:white;
+	 --eight-color:black;
+	 --header-color:white;
+	 
+ }
+ 
+ .dark-theme{
+	 
+	 --primary-color:black;
+	 --secondary-color:black;
+	 --third-color:white;
+	 --four-color:white; 
+	 --fifth-color:#0A344D;
+	 --eight-color:#0A344D;
+	 --header-color:#1b1b1b;
+ }
+
+body{
+	margin:0
+}
+
+.breadcrumbs { 
+    position: absolute;
+    top: 7em;
+    padding: 5px;
+    z-index: 1;
+}
+
+.image-banner .breadcrumbs{
+	top: 10px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: var(--third-color);
+}
+
+.breadcrumbs .active {
+    pointer-events: none;
+	font-weight:bold;
+}
+/* > */
+.breadcrumbs .divider {
+    margin: 0 5px;
+    color: var(--third-color);
+}
+
+nav .header{   
+    background-color:var(--secondary-color);  
+    padding: 15px;  
+    display: flex;  
+}  
+
+.image-banner { 
+    position: relative;
+}
+breadcrumbs a:visited{
+	color:var(--third-color);
+	
+}
+
+
+
+
+/*header*/
+header {  
+background-color: var(--header-color);  
+padding: 10px 0;  
+color:var(--third-color);
+display: flex;  
+justify-content: space-between;  
+align-items: center; 
+width:100%; 
+}  
+
+.logo img {  
+max-width: 240px;  
+height: auto; 
+}  
+
+.navbar {  
+margin-right: 20px;  
+margin-top: 18px; 
+}  
+
+.navbar ul {  
+list-style-type: none;  
+padding: 0;  
+margin: 0;  
+display: flex;  
+gap: 35px;  
+font-size: 15px;
+  
+}  
+
+ .navbar a {  
+text-decoration: none;  
+color:var(--third-color); 
+transition: color 0.3s ease-in-out;  
+}  
+
+.navbar a:hover {  
+color: #2C9FF3;  
+}     
+
+
+ 
+
+/* footer */
+ 
+
+footer { 
+
+    background-color:var(--header-color) ; 
+	
+  font-family:Sans-serif; 
+
+} 
+
+ 
+ 
+
+footer .copy-right { 
+
+    text-align: center; 
+
+    color: var(--secondary-color); 
+
+    background-color:var(--eight-color); 
+
+    padding: 10px; 
+
+} 
+
+ 
+ 
+
+footer .footer-icons-ul { 
+
+    list-style: none; 
+
+    padding: 0;
+
+color:var(--third-color)
+
+} 
+
+ 
+ 
+
+.footer-container { 
+
+    display: flex; 
+
+    flex-direction: row; 
+
+    justify-content: space-between;   
+
+    padding: 0 40px;  
+} 
+
+ 
+
+
+footer .footerimg { 
+
+    height: 100px;  
+    width: 185px; 
+    padding-top:1em;
+} 
+

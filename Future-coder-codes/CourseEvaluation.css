@@ -1,0 +1,157 @@
+
+
+/*Course Evaluation page*/
+:root{
+
+  --primary-color:#f5f5f5;
+  --secondary-color:white;
+  --third-color:black;
+  --four-color:#666;
+  --fifth-color:white;
+  --sixith-color:#0A344D;
+  --seven-color:lightgray;
+  --tenth-color:#f5f5f5;
+  --elven-color:lightgray;
+  --twelve-color:#3498db;
+  --thirteen-color:white;
+
+
+  
+  
+  }
+  
+  .dark-theme{
+    --primary-color:black;
+    --secondary-color:black;
+    --third-color:white;
+    --four-color:white;
+    --fifth-color:#0A344D;
+    --sixith-color:white;
+    --seven-color:#0A344D;
+    --tenth-color:#353535;
+    --elven-color:#3a3a3a;
+    --twelve-color:#001625 ;
+    --thirteen-color:#e4d9d9 ;
+    
+
+  }
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+    padding: 0;
+color: var(--third-color);
+	font-family:Sans-serif;
+
+}
+ 
+.image-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+}
+.image-banner {
+  position: relative;
+}
+
+  
+#enrollment-form {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--fifth-color);
+    box-shadow: 0 0 10px 5px var(--elven-color);
+
+
+}
+
+
+
+select.evalselect{
+  background-color: var(--thirteen-color);
+}
+
+
+#eval-lable-name {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+.evaluation-sumbit{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 50px;   
+    text-align: center;     
+}
+
+.evaluation-submit-button{
+    background-color: var(--twelve-color);  
+    color: white;              
+    border: none;            
+    width: 130px;              
+    height: 40px;              
+    border-radius: 5px;      
+    font-size: 18px;          
+    cursor: pointer;          
+}
+
+.evaluation-submit-button:hover {
+    background-color: #2980b9;  
+}
+
+.course-rate {
+  display: flex;
+  align-items: center;
+}
+
+.course-rate span {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.course-rate ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.course-rate li {
+  margin-right: 5px;
+}
+.course-rate input[type="radio"] {
+  display: none;
+}
+
+
+.course-rate i {
+  cursor: pointer;
+}
+
+
+.course-rate input[type="radio"]:checked ~ label i {
+  color: #fff833;
+}
+
+textarea{
+    width: 450px;
+  height: 218px;
+  background-color: var(--thirteen-color);
+
+}
+#eval-textarea{
+    font-size: 18px;
+}
+footer { 
+
+    border: 1px solid #aaa; 
+  
+    background-color:white ; 
+  
+  } 
+  
+  
+  
